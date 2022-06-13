@@ -6,13 +6,13 @@
   "type": "commonjs",
   "nodemonConfig": {
     "ignore": [
-        "db/*"
+      "db/*"
     ]
-},
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "start:dev":"nodemon index"
+    "start:dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Dr-House69/goit-node-hw-01#readme",
   "dependencies": {
-    "commander": "9.2.0"
+    "commander": "^9.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
